@@ -35,7 +35,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "rapidapi_key = 'YOUR_API_KEY_HERE'\n",
+    "rapidapi_key = '58c0e118e9msh9ed9e8584f9ce98p101c65jsn4740d830031a'\n",
     "naver_client_id = 'YOUR_API_KEY_HERE'\n",
     "naver_client_secret = 'YOUR_API_KEY_HERE'"
    ]
@@ -84,7 +84,7 @@
     "\n",
     "Attention Is All You Need\n",
     "- 페이지 : https://arxiv.org/abs/1706.03762\n",
-    "- 본문(pdf) : https://arxiv.org/pdf/1706.03762.pdf"
+    "- 본문(pdf) : https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202412503"
    ]
   },
   {
@@ -626,10 +626,10 @@
     }
    ],
    "source": [
-    "url = \"https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/\"\n",
+    "url = \"https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202412503"\n",
     "\n",
     "payload = {\n",
-    "    \"url\": \"https://arxiv.org/pdf/1706.03762.pdf\", # 주소\n",
+    "    \"url\": \"https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202412503", # 주소\n",
     "    \"min_length\": 100, # 최소 길이\n",
     "    \"max_length\": 300, # 최대 길이\n",
     "    \"is_detailed\": False # 한 문장으로 반환할 것인지 여부\n",
